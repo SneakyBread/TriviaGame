@@ -28,7 +28,7 @@ var questions = [
 
     },
     {
-        question: "Who is the kanine companion of Venom Snake in MGSV",
+        question: "Who is the kanine companion of Venom Snake?",
         answers: ["D-Dog", "Foxhound", "D-Fang", "Quiet"],
         choicesAnswer: 0
     },
@@ -43,7 +43,7 @@ var questions = [
         choicesAnswer: 3
     },
     {
-        question: "The latest game in the series was Metal Gear Survive",
+        question: "The latest game in the series was Metal Gear Survive.",
         answers: ["ohhhhhhhhh. What is that? Never heard of it", "True"],
         choicesAnswer: 0
     }
