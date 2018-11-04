@@ -105,7 +105,7 @@ function createRadioBtns() {
     responseOptions.empty();
 
     for (var i = 0; i < questions[questionCounter].answers.length; i++) {
-        responseOptions.append('<label><input type="radio" name="optionsRadios" id="optionsRadios2" value="' + [i] +'"><div class="answerBullets">' + questions[questionCounter].answers[i] + '</div></input><br></label>');
+        responseOptions.append('<label class="container "><input type="radio" name="optionsRadios" id="bulletStyle" value="' + [i] +'">' + questions[questionCounter].answers[i] + '</label>');
     };
 };
 
