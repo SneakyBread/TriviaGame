@@ -2,19 +2,82 @@
 <html>
 <head>
     <Title>Trivia Game!</Title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .bg {
+            /* The image used */
+            background-image: url("assets/images/mgs3.jpg_large");
+
+            /* Full height */
+            height: 100%; 
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1 {
+            background-color: rgb(175, 60, 60);
+            top: 10px;
+            font-size: 60px;
+            padding: 20px;
+        }
+
+        .contentBox {
+            margin: 20px;
+        }
+
+        #timer {
+            margin-bottom: 20px;
+        }
+
+        #pleasefix {
+            margin: 10px;
+            float: right;
+            clear: right;
+        }
+    </style>
+
 </head>
 
 <body>
-    <h1>TRIVIA!!!!!!</h1>
-    <div id="quiz"></div>
-    <button id="start">START!</button>
-    <button id="done">DONE</button>
-    <div id="results"></div>
+<div class="bg">
+    
+<div class="container">
 
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <h1 class="col-md-8 page-header text-center border border-dark rounded">Metal Gear Solid Trivia!</h1>
+        <div class="col-md-2"></div>
+        </div>
+
+    <div class="row contentBox">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h2 class="text-center" id="timer">Time remaining: 20 seconds</h2>
+            <div class="text-center" id="content"></div>              
+            <div id="quiz">
+                <h4 class="questionPLEASE"></h4>
+                <div id="responses"></div>
+                <br><br>
+                <div id="submit-div"></div>
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+
+</div>
+
+</div>
+
 </body>
 </html>
