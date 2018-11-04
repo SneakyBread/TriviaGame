@@ -22,7 +22,7 @@ var questions = [
         choicesAnswer: 3
     },
     {
-        question: "What is the greatest device in stealth technology?",
+        question: "What is the greatest device in stealth infiltration technology?",
         answers: ["F-22 Rapter", "A Cardboard Box", "Invisibility Blanket", "Active Camoflague Technology"],
         choicesAnswer: 1
 
@@ -34,7 +34,7 @@ var questions = [
     },
     {
         question: "Why is Old Snake old in MGS4?",
-        answers: ["Accelerated aging due to the cloning process", "He's just old...cuz age", "His bandana was injected with nanomachines", "He isn't old, he recieved an advanced form of plastic surgery augmentation in order to alter his appearance to resemble the legendary Big Boss"],
+        answers: ["Accelerated aging due to the cloning process", "He's just old...cuz age", "His bandana was injected with nanomachines", "He isn't old, he recieved an advanced form of surgical augmentation in order to alter his appearance"],
         choicesAnswer: 0
     },
     {
